@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\114_1_C_Sharp\\114_10_01\\Tutorial3_1\\",
+  "WorkspaceRootPath": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\114_10_01\\Tutorial3_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA495D5B-74AC-4620-B391-ACF853637DFC}|Tutorial3_1\\Tutorial3_1.csproj|c:\\users\\m303\\desktop\\114_1_c_sharp\\114_1_c_sharp\\114_10_01\\tutorial3_1\\tutorial3_1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA495D5B-74AC-4620-B391-ACF853637DFC}|Tutorial3_1\\Tutorial3_1.csproj|solutionrelative:tutorial3_1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA495D5B-74AC-4620-B391-ACF853637DFC}|Tutorial3_1\\Tutorial3_1.csproj|C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\114_10_01\\Tutorial3_1\\tutorial3_1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CA495D5B-74AC-4620-B391-ACF853637DFC}|Tutorial3_1\\Tutorial3_1.csproj|solutionrelative:tutorial3_1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA495D5B-74AC-4620-B391-ACF853637DFC}|Tutorial3_1\\Tutorial3_1.csproj|c:\\users\\m303\\desktop\\114_1_c_sharp\\114_1_c_sharp\\114_10_01\\tutorial3_1\\tutorial3_1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CA495D5B-74AC-4620-B391-ACF853637DFC}|Tutorial3_1\\Tutorial3_1.csproj|solutionrelative:tutorial3_1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CA495D5B-74AC-4620-B391-ACF853637DFC}|Tutorial3_1\\Tutorial3_1.csproj|c:\\users\\m303\\desktop\\114_1_c_sharp\\114_10_01\\tutorial3_1\\tutorial3_1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA495D5B-74AC-4620-B391-ACF853637DFC}|Tutorial3_1\\Tutorial3_1.csproj|solutionrelative:tutorial3_1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\114_1_C_Sharp\\114_10_01\\Tutorial3_1\\Tutorial3_1\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\114_10_01\\Tutorial3_1\\Tutorial3_1\\Form1.cs",
               "RelativeDocumentMoniker": "Tutorial3_1\\Form1.cs",
-              "ToolTip": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\114_1_C_Sharp\\114_10_01\\Tutorial3_1\\Tutorial3_1\\Form1.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\114_10_01\\Tutorial3_1\\Tutorial3_1\\Form1.cs",
               "RelativeToolTip": "Tutorial3_1\\Form1.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAAwCMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -39,11 +39,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [\u8A2D\u8A08]",
-              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\114_1_C_Sharp\\114_10_01\\Tutorial3_1\\Tutorial3_1\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\114_10_01\\Tutorial3_1\\Tutorial3_1\\Form1.cs",
               "RelativeDocumentMoniker": "Tutorial3_1\\Form1.cs",
-              "ToolTip": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\114_1_C_Sharp\\114_10_01\\Tutorial3_1\\Tutorial3_1\\Form1.cs [\u8A2D\u8A08]",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\114_10_01\\Tutorial3_1\\Tutorial3_1\\Form1.cs [\u8A2D\u8A08]",
               "RelativeToolTip": "Tutorial3_1\\Form1.cs [\u8A2D\u8A08]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T03:08:06.297Z",
