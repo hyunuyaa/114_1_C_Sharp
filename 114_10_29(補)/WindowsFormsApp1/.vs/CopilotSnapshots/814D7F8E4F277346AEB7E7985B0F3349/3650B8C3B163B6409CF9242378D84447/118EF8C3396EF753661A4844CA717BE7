@@ -1,0 +1,126 @@
+﻿using System;
+using System.Drawing;
+using System.IO;
+using System.Windows.Forms;
+using System.ComponentModel;
+
+namespace WindowsFormsApp1
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // Skip runtime-only image loading when in the Visual Studio designer
+            if (LicenseManager.UsageMode == LicenseUsageMode.Designtime)
+                return;
+
+            // Paths to images (relative to the application's startup folder)
+            string p1 = @"Images\Cards\Poker Large\Ace_of_Spades.jpg";
+            string p2 = @"Images\Cards\Poker Large\Two_of_Clubs.jpg";
+            string p3 = @"Images\Cards\Poker Large\Queen_of_Hearts.jpg";
+            string p4 = @"Images\Cards\Poker Large\Ten_of_Diamonds.jpg";
+            string p5 = @"Images\Cards\Poker Large\King_of_Clubs.jpg";
+
+            // Assign images. We store the resolved path in Tag so the click handler can always determine the file name
+            AssignImage(pictureBox1, p1);
+            AssignImage(pictureBox2, p2);
+            AssignImage(pictureBox3, p3);
+            AssignImage(pictureBox4, p4);
+            AssignImage(pictureBox5, p5);
+
+            // Fit images nicely
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+        }
+
+        private void AssignImage(PictureBox pb, string relativePath)
+        {
+            if (pb == null) return;
+
+            // Build absolute path based on Application.StartupPath
+            string combined = Path.Combine(Application.StartupPath, relativePath);
+            string resolved = null;
+
+            if (Path.HasExtension(combined))
+            {
+                if (File.Exists(combined)) resolved = combined;
+            }
+            else
+            {
+                // Try common image extensions
+                string[] exts = new[] { ".jpg", ".jpeg", ".png", ".bmp", ".gif" };
+                foreach (var ext in exts)
+                {
+                    var candidate = combined + ext;
+                    if (File.Exists(candidate))
+                    {
+                        resolved = candidate;
+                        break;
+                    }
+                }
+            }
+
+            if (resolved == null)
+            {
+                // Not found — show a clear message at runtime so user can fix paths or copy files to output
+                pb.Tag = relativePath; // keep original for diagnostics
+                pb.Image = null;
+                pb.ImageLocation = null;
+
+                if (LicenseManager.UsageMode != LicenseUsageMode.Designtime)
+                {
+                    MessageBox.Show("Image not found:\n" + combined + "\n\nMake sure the image files are present under the application's folder (bin\\Debug or bin\\Release) or update the paths.", "Image not found", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+
+                return;
+            }
+
+            // Store resolved path and load
+            pb.Tag = resolved;
+            try
+            {
+                // Use FromFile to ensure immediate load (note: locks file until disposed)
+                pb.Image = Image.FromFile(resolved);
+            }
+            catch (Exception ex)
+            {
+                // If direct load fails, try ImageLocation async and show error only at runtime
+                if (LicenseManager.UsageMode != LicenseUsageMode.Designtime)
+                {
+                    MessageBox.Show("Failed to load image: " + resolved + "\n" + ex.Message, "Load error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                pb.ImageLocation = resolved;
+                try { pb.LoadAsync(); } catch { }
+            }
+        }
+
+        private void pictureBox_Click(object sender, EventArgs e)
+        {
+            var clickedBox = sender as PictureBox;
+            if (clickedBox == null) return;
+
+            // Prefer resolved Tag (full path) or ImageLocation
+            string path = clickedBox.Tag as string ?? clickedBox.ImageLocation;
+            if (!string.IsNullOrEmpty(path))
+            {
+                string cardName = Path.GetFileNameWithoutExtension(path);
+                label1.Text = "You clicked: " + cardName.Replace('_', ' ');
+                return;
+            }
+
+            if (clickedBox.Image != null)
+            {
+                label1.Text = "You clicked an image";
+            }
+        }
+    }
+}
