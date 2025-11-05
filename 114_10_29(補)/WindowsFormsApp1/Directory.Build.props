@@ -1,8 +1,0 @@
-<Project>
-  <ItemGroup>
-    <!-- Include any files under Images folder as Content and copy them to output directory -->
-    <Content Include="**\Images\**\*.*">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-</Project>

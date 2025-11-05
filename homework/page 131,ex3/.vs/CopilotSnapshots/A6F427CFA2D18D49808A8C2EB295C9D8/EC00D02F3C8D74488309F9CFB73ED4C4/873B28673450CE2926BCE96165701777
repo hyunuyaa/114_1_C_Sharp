@@ -1,0 +1,71 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Reflection.Emit;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace page_131_ex3
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // 設定表單與所有控制項字型為「微軟正黑體」18pt
+            var uiFont = new Font("微軟正黑體", 18F, FontStyle.Regular, GraphicsUnit.Point, ((byte)(136)));
+            this.Font = uiFont;
+            ApplyFontToControls(this.Controls, uiFont);
+
+            // 載入圖片（請修改成你的實際路徑）
+            pictureBox1.Image = Image.FromFile(@"Images\Cards\Poker Large\One.bmp");
+            pictureBox2.Image = Image.FromFile(@"Images\Cards\Poker Large\Two.bmp");
+            pictureBox3.Image = Image.FromFile(@"Images\Cards\Poker Large\Three.bmp");
+            pictureBox4.Image = Image.FromFile(@"Images\Cards\Poker Large\Four.bmp");
+            pictureBox5.Image = Image.FromFile(@"Images\Cards\Poker Large\Five.bmp");
+
+            // 維持圖片大小比例
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            // 將已知的文字改為繁體中文（若需要更多文字翻譯，可在此新增）
+            this.Text = "表單1";
+            if (label1 != null) label1.Text = ""; // 初始可以設為空或你想要的中文預設
+        }
+
+        private void pictureBox_Click(object sender, EventArgs e)
+        {
+            PictureBox clickedCard = sender as PictureBox;
+
+            if (clickedCard != null && clickedCard.ImageLocation != null)
+            {
+                string fileName = System.IO.Path.GetFileNameWithoutExtension(clickedCard.ImageLocation);
+                label1.Text = "您點擊了：" + fileName;
+            }
+        }
+
+        // 遞迴套用字型到所有控制項
+        private void ApplyFontToControls(Control.ControlCollection controls, Font font)
+        {
+            foreach (Control c in controls)
+            {
+                c.Font = font;
+                if (c.HasChildren)
+                {
+                    ApplyFontToControls(c.Controls, font);
+                }
+            }
+        }
+    }
+}

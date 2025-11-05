@@ -1,0 +1,11 @@
+C:\Users\m303\Desktop\114_1_C_Sharp\homework\page 132,ex5\page 132,ex5\bin\Debug\page 132,ex5.exe.config
+C:\Users\m303\Desktop\114_1_C_Sharp\homework\page 132,ex5\page 132,ex5\bin\Debug\page 132,ex5.exe
+C:\Users\m303\Desktop\114_1_C_Sharp\homework\page 132,ex5\page 132,ex5\bin\Debug\page 132,ex5.pdb
+C:\Users\m303\Desktop\114_1_C_Sharp\homework\page 132,ex5\page 132,ex5\obj\Debug\page 132,ex5.csproj.AssemblyReference.cache
+C:\Users\m303\Desktop\114_1_C_Sharp\homework\page 132,ex5\page 132,ex5\obj\Debug\page_132_ex5.Form1.resources
+C:\Users\m303\Desktop\114_1_C_Sharp\homework\page 132,ex5\page 132,ex5\obj\Debug\page_132_ex5.Properties.Resources.resources
+C:\Users\m303\Desktop\114_1_C_Sharp\homework\page 132,ex5\page 132,ex5\obj\Debug\page 132,ex5.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\114_1_C_Sharp\homework\page 132,ex5\page 132,ex5\obj\Debug\page 132,ex5.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\114_1_C_Sharp\homework\page 132,ex5\page 132,ex5\obj\Debug\page 132,ex5.exe
+C:\Users\m303\Desktop\114_1_C_Sharp\homework\page 132,ex5\page 132,ex5\obj\Debug\page 132,ex5.pdb
+C:\Users\m303\Desktop\114_1_C_Sharp\homework\page 132,ex5\page 132,ex5\obj\Debug\page 132,ex5.exe.config

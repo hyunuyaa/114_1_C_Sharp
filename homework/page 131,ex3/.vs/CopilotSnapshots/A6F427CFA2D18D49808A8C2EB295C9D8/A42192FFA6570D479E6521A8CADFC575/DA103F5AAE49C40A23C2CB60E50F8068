@@ -1,0 +1,93 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Reflection.Emit;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace page_131_ex3
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // 設定表單與所有控制項字型為「微軟正黑體」18pt
+            var uiFont = new Font("微軟正黑體", 18F, FontStyle.Regular, GraphicsUnit.Point, ((byte)(136)));
+            this.Font = uiFont;
+            ApplyFontToControls(this.Controls, uiFont);
+
+            // 載入圖片（請修改成你的實際路徑）
+            pictureBox1.Image = Image.FromFile(@"Images\Cards\Poker Large\One.bmp");
+            pictureBox2.Image = Image.FromFile(@"Images\Cards\Poker Large\Two.bmp");
+            pictureBox3.Image = Image.FromFile(@"Images\Cards\Poker Large\Three.bmp");
+            pictureBox4.Image = Image.FromFile(@"Images\Cards\Poker Large\Four.bmp");
+            pictureBox5.Image = Image.FromFile(@"Images\Cards\Poker Large\Five.bmp");
+
+            // 設定 Tag 為卡片名稱（不含副檔名），供點擊時顯示
+            pictureBox1.Tag = "One";
+            pictureBox2.Tag = "Two";
+            pictureBox3.Tag = "Three";
+            pictureBox4.Tag = "Four";
+            pictureBox5.Tag = "Five";
+
+            // 維持圖片大小比例
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            // 將已知的文字改為繁體中文
+            this.Text = "撲克牌範例";
+            if (label1 != null) label1.Text = "狀態：尚未點選"; // 預設顯示
+        }
+
+        private void pictureBox_Click(object sender, EventArgs e)
+        {
+            PictureBox clickedCard = sender as PictureBox;
+
+            if (clickedCard != null)
+            {
+                // 優先使用 Tag（設為檔名不含副檔名）
+                if (clickedCard.Tag != null)
+                {
+                    label1.Text = "您點擊了：" + clickedCard.Tag.ToString();
+                    return;
+                }
+
+                // 若 ImageLocation 可用，顯示檔名不含副檔名
+                if (!string.IsNullOrEmpty(clickedCard.ImageLocation))
+                {
+                    string fileName = System.IO.Path.GetFileNameWithoutExtension(clickedCard.ImageLocation);
+                    label1.Text = "您點擊了：" + fileName;
+                    return;
+                }
+
+                // 最後顯示控制項名稱
+                label1.Text = "您點擊了：" + clickedCard.Name;
+            }
+        }
+
+        // 遞迴套用字型到所有控制項
+        private void ApplyFontToControls(Control.ControlCollection controls, Font font)
+        {
+            foreach (Control c in controls)
+            {
+                c.Font = font;
+                if (c.HasChildren)
+                {
+                    ApplyFontToControls(c.Controls, font);
+                }
+            }
+        }
+    }
+}

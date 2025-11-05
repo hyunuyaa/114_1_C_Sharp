@@ -1,0 +1,11 @@
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\page 131,ex3\page 131,ex3\bin\Debug\page 131,ex3.exe.config
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\page 131,ex3\page 131,ex3\bin\Debug\page 131,ex3.exe
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\page 131,ex3\page 131,ex3\bin\Debug\page 131,ex3.pdb
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\page 131,ex3\page 131,ex3\obj\Debug\page 131,ex3.csproj.AssemblyReference.cache
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\page 131,ex3\page 131,ex3\obj\Debug\page_131_ex3.Form1.resources
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\page 131,ex3\page 131,ex3\obj\Debug\page_131_ex3.Properties.Resources.resources
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\page 131,ex3\page 131,ex3\obj\Debug\page 131,ex3.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\page 131,ex3\page 131,ex3\obj\Debug\page 131,ex3.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\page 131,ex3\page 131,ex3\obj\Debug\page 131,ex3.exe
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\page 131,ex3\page 131,ex3\obj\Debug\page 131,ex3.pdb
+C:\Users\m303\Desktop\114_1_C_Sharp\114_10_29(補)\page 131,ex3\page 131,ex3\obj\Debug\page 131,ex3.exe.config

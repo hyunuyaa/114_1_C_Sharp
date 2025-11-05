@@ -1,0 +1,10 @@
+C:\Users\m303\Desktop\114_1_C_Sharp\114_11_05\RadioButtonDemp\RadioButtonDemp\bin\Debug\RadioButtonDemp.exe.config
+C:\Users\m303\Desktop\114_1_C_Sharp\114_11_05\RadioButtonDemp\RadioButtonDemp\bin\Debug\RadioButtonDemp.exe
+C:\Users\m303\Desktop\114_1_C_Sharp\114_11_05\RadioButtonDemp\RadioButtonDemp\bin\Debug\RadioButtonDemp.pdb
+C:\Users\m303\Desktop\114_1_C_Sharp\114_11_05\RadioButtonDemp\RadioButtonDemp\obj\Debug\RadioButtonDemp.csproj.AssemblyReference.cache
+C:\Users\m303\Desktop\114_1_C_Sharp\114_11_05\RadioButtonDemp\RadioButtonDemp\obj\Debug\RadioButtonDemp.Form1.resources
+C:\Users\m303\Desktop\114_1_C_Sharp\114_11_05\RadioButtonDemp\RadioButtonDemp\obj\Debug\RadioButtonDemp.Properties.Resources.resources
+C:\Users\m303\Desktop\114_1_C_Sharp\114_11_05\RadioButtonDemp\RadioButtonDemp\obj\Debug\RadioButtonDemp.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\114_1_C_Sharp\114_11_05\RadioButtonDemp\RadioButtonDemp\obj\Debug\RadioButtonDemp.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\114_1_C_Sharp\114_11_05\RadioButtonDemp\RadioButtonDemp\obj\Debug\RadioButtonDemp.exe
+C:\Users\m303\Desktop\114_1_C_Sharp\114_11_05\RadioButtonDemp\RadioButtonDemp\obj\Debug\RadioButtonDemp.pdb
