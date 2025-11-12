@@ -1,0 +1,63 @@
+﻿namespace page_213_ex4
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// 設計工具所需的變數。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// 清除任何使用中的資源。
+        /// </summary>
+        /// <param name="disposing">如果應該處置受控資源則為 true，否則為 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form 設計工具產生的程式碼
+
+        /// <summary>
+        /// 此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改
+        /// 這個方法的內容。
+        /// 
+        /// 以下已依使用者要求將元件的 Text 屬性改為繁體中文，
+        /// 並將表單的字型設定為「微軟正黑體」(Microsoft JhengHei)，
+        /// 字型大小統一改為 18。註解皆以繁體中文說明變更內容與用途。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // Form1
+            // 
+            // AutoScaleDimensions: 表單在不同 DPI 或字型設定下的縮放基準。
+            // 這裡維持原先的設定，不須變更。
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            // AutoScaleMode: 指定表單如何依據字型或 DPI 進行縮放。
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            // ClientSize: 表單的客戶區大小 (不含邊框與標題列)。
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            // Name: 表單的程式內識別名稱，不影響 UI 顯示文字。
+            this.Name = "Form1";
+            // Text: 顯示在視窗標題列的文字，已改為繁體中文「所得稅計算」。
+            this.Text = "所得稅計算";
+            // Font: 設定表單內元件的預設字型。
+            // 設定為微軟正黑體 (Microsoft JhengHei)，字型大小 18，樣式為 Regular，
+            // 以確保所有在表單上未明確指定字型的元件，都會使用此字型與大小。
+            this.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            // Load 事件: 表單載入時會觸發的事件處理器，若需要初始化邏輯可在 Form1_Load 中實作。
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+    }
+}
+

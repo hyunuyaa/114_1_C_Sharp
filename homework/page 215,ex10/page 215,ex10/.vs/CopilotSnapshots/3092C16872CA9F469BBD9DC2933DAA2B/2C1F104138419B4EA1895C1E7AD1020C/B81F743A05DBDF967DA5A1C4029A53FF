@@ -1,0 +1,398 @@
+﻿namespace page_215_ex10
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// 設計工具所需的變數（由 Visual Studio 管理）。
+        /// 此檔為手動產生的設計程式碼：
+        /// - 將所有可見文字改為繁體中文
+        /// - 預設字型改為 18pt（微軟正黑體）
+        /// - 提供完整且可直接貼入的 InitializeComponent 實作
+        /// 注意：若在 __Solution Explorer__ 使用設計工具編輯表單，Visual Studio 會重新產生此檔並可能覆寫手動變更。
+        /// 若要讓按鈕/圖片可互動，請在 Form1.cs 補上對應的事件處理器（範例：pictureBoxFruit_Click、buttonReset_Click、buttonExit_Click）。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        // 控制項宣告（保持簡潔、唯一）
+        private System.Windows.Forms.PictureBox pictureBoxBanana;
+        private System.Windows.Forms.PictureBox pictureBoxApple;
+        private System.Windows.Forms.PictureBox pictureBoxOrange;
+        private System.Windows.Forms.PictureBox pictureBoxPear;
+        private System.Windows.Forms.Label labelBananaCalories;
+        private System.Windows.Forms.Label labelAppleCalories;
+        private System.Windows.Forms.Label labelOrangeCalories;
+        private System.Windows.Forms.Label labelPearCalories;
+        private System.Windows.Forms.Label labelTotalText;
+        private System.Windows.Forms.TextBox textBoxTotal;
+        private System.Windows.Forms.Button buttonReset;
+        private System.Windows.Forms.Button buttonExit;
+
+        // 表單內使用的控制項宣告
+        private System.Windows.Forms.PictureBox pictureBoxBanana;
+        private System.Windows.Forms.PictureBox pictureBoxApple;
+        private System.Windows.Forms.PictureBox pictureBoxOrange;
+        private System.Windows.Forms.PictureBox pictureBoxPear;
+        private System.Windows.Forms.Label labelBananaCalories;
+        private System.Windows.Forms.Label labelAppleCalories;
+        private System.Windows.Forms.Label labelOrangeCalories;
+        private System.Windows.Forms.Label labelPearCalories;
+        private System.Windows.Forms.Label labelTotalText;
+        private System.Windows.Forms.TextBox textBoxTotal;
+        private System.Windows.Forms.Button buttonReset;
+        private System.Windows.Forms.Button buttonExit;
+
+        // 表單內使用的控制項宣告
+        private System.Windows.Forms.PictureBox pictureBoxBanana;
+        private System.Windows.Forms.PictureBox pictureBoxApple;
+        private System.Windows.Forms.PictureBox pictureBoxOrange;
+        private System.Windows.Forms.PictureBox pictureBoxPear;
+        private System.Windows.Forms.Label labelBananaCalories;
+        private System.Windows.Forms.Label labelAppleCalories;
+        private System.Windows.Forms.Label labelOrangeCalories;
+        private System.Windows.Forms.Label labelPearCalories;
+        private System.Windows.Forms.Label labelTotalText;
+        private System.Windows.Forms.TextBox textBoxTotal;
+        private System.Windows.Forms.Button buttonReset;
+        private System.Windows.Forms.Button buttonExit;
+
+        /// <summary>
+        // 表單內使用的控制項宣告
+        private System.Windows.Forms.PictureBox pictureBoxBanana;
+        private System.Windows.Forms.PictureBox pictureBoxApple;
+        private System.Windows.Forms.PictureBox pictureBoxOrange;
+        private System.Windows.Forms.PictureBox pictureBoxPear;
+        private System.Windows.Forms.Label labelBananaCalories;
+        private System.Windows.Forms.Label labelAppleCalories;
+        private System.Windows.Forms.Label labelOrangeCalories;
+        private System.Windows.Forms.Label labelPearCalories;
+        private System.Windows.Forms.Label labelTotalText;
+        private System.Windows.Forms.TextBox textBoxTotal;
+        private System.Windows.Forms.Button buttonReset;
+        private System.Windows.Forms.Button buttonExit;
+
+        // 表單內使用的控制項宣告
+        private System.Windows.Forms.PictureBox pictureBoxBanana;
+        private System.Windows.Forms.PictureBox pictureBoxApple;
+        private System.Windows.Forms.PictureBox pictureBoxOrange;
+        private System.Windows.Forms.PictureBox pictureBoxPear;
+        private System.Windows.Forms.Label labelBananaCalories;
+        private System.Windows.Forms.Label labelAppleCalories;
+        private System.Windows.Forms.Label labelOrangeCalories;
+        private System.Windows.Forms.Label labelPearCalories;
+        private System.Windows.Forms.Label labelTotalText;
+        private System.Windows.Forms.TextBox textBoxTotal;
+        private System.Windows.Forms.Button buttonReset;
+        private System.Windows.Forms.Button buttonExit;
+
+        // 表單內使用的控制項宣告
+        private System.Windows.Forms.PictureBox pictureBoxBanana;
+        private System.Windows.Forms.PictureBox pictureBoxApple;
+        private System.Windows.Forms.PictureBox pictureBoxOrange;
+        private System.Windows.Forms.PictureBox pictureBoxPear;
+        private System.Windows.Forms.Label labelBananaCalories;
+        private System.Windows.Forms.Label labelAppleCalories;
+        private System.Windows.Forms.Label labelOrangeCalories;
+        private System.Windows.Forms.Label labelPearCalories;
+        private System.Windows.Forms.Label labelTotalText;
+        private System.Windows.Forms.TextBox textBoxTotal;
+        private System.Windows.Forms.Button buttonReset;
+        private System.Windows.Forms.Button buttonExit;
+
+        // 表單內使用的控制項宣告
+        private System.Windows.Forms.PictureBox pictureBoxBanana;
+        private System.Windows.Forms.PictureBox pictureBoxApple;
+        private System.Windows.Forms.PictureBox pictureBoxOrange;
+        private System.Windows.Forms.PictureBox pictureBoxPear;
+        private System.Windows.Forms.Label labelBananaCalories;
+        private System.Windows.Forms.Label labelAppleCalories;
+        private System.Windows.Forms.Label labelOrangeCalories;
+        private System.Windows.Forms.Label labelPearCalories;
+        private System.Windows.Forms.Label labelTotalText;
+        private System.Windows.Forms.TextBox textBoxTotal;
+        private System.Windows.Forms.Button buttonReset;
+        private System.Windows.Forms.Button buttonExit;
+
+        // 表單內使用的控制項宣告
+        private System.Windows.Forms.PictureBox pictureBoxBanana;
+        private System.Windows.Forms.PictureBox pictureBoxApple;
+        private System.Windows.Forms.PictureBox pictureBoxOrange;
+        private System.Windows.Forms.PictureBox pictureBoxPear;
+        private System.Windows.Forms.Label labelBananaCalories;
+        private System.Windows.Forms.Label labelAppleCalories;
+        private System.Windows.Forms.Label labelOrangeCalories;
+        private System.Windows.Forms.Label labelPearCalories;
+        private System.Windows.Forms.Label labelTotalText;
+        private System.Windows.Forms.TextBox textBoxTotal;
+        private System.Windows.Forms.Button buttonReset;
+        private System.Windows.Forms.Button buttonExit;
+
+        // 表單內使用的控制項宣告
+        private System.Windows.Forms.PictureBox pictureBoxBanana;
+        private System.Windows.Forms.PictureBox pictureBoxApple;
+        private System.Windows.Forms.PictureBox pictureBoxOrange;
+        private System.Windows.Forms.PictureBox pictureBoxPear;
+        private System.Windows.Forms.Label labelBananaCalories;
+        private System.Windows.Forms.Label labelAppleCalories;
+        private System.Windows.Forms.Label labelOrangeCalories;
+        private System.Windows.Forms.Label labelPearCalories;
+        private System.Windows.Forms.Label labelTotalText;
+        private System.Windows.Forms.TextBox textBoxTotal;
+        private System.Windows.Forms.Button buttonReset;
+        private System.Windows.Forms.Button buttonExit;
+
+        // 表單內使用的控制項宣告
+        private System.Windows.Forms.PictureBox pictureBoxBanana;
+        private System.Windows.Forms.PictureBox pictureBoxApple;
+        private System.Windows.Forms.PictureBox pictureBoxOrange;
+        private System.Windows.Forms.PictureBox pictureBoxPear;
+        private System.Windows.Forms.Label labelBananaCalories;
+        private System.Windows.Forms.Label labelAppleCalories;
+        private System.Windows.Forms.Label labelOrangeCalories;
+        private System.Windows.Forms.Label labelPearCalories;
+        private System.Windows.Forms.Label labelTotalText;
+        private System.Windows.Forms.TextBox textBoxTotal;
+        private System.Windows.Forms.Button buttonReset;
+        private System.Windows.Forms.Button buttonExit;
+
+        // 表單內使用的控制項宣告
+        private System.Windows.Forms.PictureBox pictureBoxBanana;
+        private System.Windows.Forms.PictureBox pictureBoxApple;
+        private System.Windows.Forms.PictureBox pictureBoxOrange;
+        private System.Windows.Forms.PictureBox pictureBoxPear;
+        private System.Windows.Forms.Label labelBananaCalories;
+        private System.Windows.Forms.Label labelAppleCalories;
+        private System.Windows.Forms.Label labelOrangeCalories;
+        private System.Windows.Forms.Label labelPearCalories;
+        private System.Windows.Forms.Label labelTotalText;
+        private System.Windows.Forms.TextBox textBoxTotal;
+        private System.Windows.Forms.Button buttonReset;
+        private System.Windows.Forms.Button buttonExit;
+
+        // 表單內使用的控制項宣告
+        private System.Windows.Forms.PictureBox pictureBoxBanana;
+        private System.Windows.Forms.PictureBox pictureBoxApple;
+        private System.Windows.Forms.PictureBox pictureBoxOrange;
+        private System.Windows.Forms.PictureBox pictureBoxPear;
+        private System.Windows.Forms.Label labelBananaCalories;
+        private System.Windows.Forms.Label labelAppleCalories;
+        private System.Windows.Forms.Label labelOrangeCalories;
+        private System.Windows.Forms.Label labelPearCalories;
+        private System.Windows.Forms.Label labelTotalText;
+        private System.Windows.Forms.TextBox textBoxTotal;
+        private System.Windows.Forms.Button buttonReset;
+        private System.Windows.Forms.Button buttonExit;
+
+            /// <summary>
+        /// 清除任何使用中的資源。
+        /// </summary>
+        /// <param name="disposing">如果應該處置受控資源則為 true，否則為 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form 設計工具產生的程式碼
+
+        /// <summary>
+        /// 此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改
+        /// 這個方法的內容。此處以程式碼建立完整 UI，並以繁體中文註解說明每段設定。
+        /// 這個方法的內容。此處以程式碼建立完整 UI，並以繁體中文註解說明每段設定。
+        /// 這個方法的內容。此處以程式碼建立完整 UI，並以繁體中文註解說明每段設定。
+        /// 這個方法的內容。此處以程式碼建立完整 UI，並以繁體中文註解說明每段設定。
+        /// 這個方法的內容。此處以程式碼建立完整 UI，並以繁體中文註解說明每段設定。
+        /// 這個方法的內容。此處以程式碼建立完整 UI，並以繁體中文註解說明每段設定。
+        /// 這個方法的內容。此處以程式碼建立完整 UI，並以繁體中文註解說明每段設定。
+        /// 這個方法的內容。此處以程式碼建立完整 UI，並以繁體中文註解說明每段設定。
+        /// 這個方法的內容。此處以程式碼建立完整 UI，並以繁體中文註解說明每段設定。
+        /// 這個方法的內容。此處以程式碼建立完整 UI，並以繁體中文註解說明每段設定。
+        /// 這個方法的內容。此處以程式碼建立完整 UI，並以繁體中文註解說明每段設定。
+        /// 這個方法的內容。此處以程式碼建立完整 UI，並以繁體中文註解說明每段設定。
+        /// 這個方法的內容。此處以程式碼建立完整 UI，並以繁體中文註解說明每段設定。
+        /// 這個方法的內容。此處以程式碼建立完整 UI，並以繁體中文註解說明每段設定。
+        /// 這個方法的內容。此處以程式碼建立完整 UI，並以繁體中文註解說明每段設定。
+        /// 這個方法的內容。此處以程式碼建立完整 UI，並以繁體中文註解說明每段設定。
+        /// 這個方法的內容。
+        /// 
+        /// 以下初始化程式會：
+        /// 1. 設定 Form 的大小與縮放模式。
+        /// 2. 將 Form 的標題（Text 屬性）改為繁體中文「卡路里計算器」。
+        /// 3. 設定整個表單與其子元件預設字型為 18pt（微軟正黑體），以確保 UI 字體大小一致。
+        /// 
+        /// 注意：若專案中有其他元件（例如 Button、Label、PictureBox 等），它們的 Text 屬性應在各自的初始化程式段中改為對應的繁體中文（例如：Banana -> 香蕉、Reset -> 重設、Exit -> 離開、Total Calories -> 總卡路里）。
+        /// 下方程式碼會設定 Form 的預設字型，子元件若沒有明確指定字型會繼承此設定。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+
+            // 暫停版面配置以加速初始化
+            this.components = new System.ComponentModel.Container();
+
+            // 暫停版面配置以加速初始化
+            this.components = new System.ComponentModel.Container();
+
+            // 暫停版面配置以加速初始化
+            this.SuspendLayout();
+
+            // ---------- 共用字型設定 ----------
+            // 設定整個表單的預設字型為 18pt 微軟正黑體，子控制項若未單獨設定會繼承此字型。
+            this.Font = new System.Drawing.Font(
+                "Microsoft JhengHei",
+                18F,
+                System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point,
+                ((byte)(136))
+            );
+
+            // ---------- Form 屬性 ----------
+                                                                                // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(21F, 45F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(640, 380); // 視窗大小，可視需要調整
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "卡路里計算器"; // 將表單標題改為繁體中文
+
+            // 若需要在表單載入時初始化更多內容，請在 Form1.cs 的 Form1_Load 中處理
+            this.Text = "卡路里計算器";
+            this.Load += new System.EventHandler(this.Form1_Load);
+
+            // ---------- 建立並設定 PictureBox（四個水果圖片框） ----------
+            // 備註：Image 屬性未在此指定，請在 Designer 或執行時填入資源或檔案路徑以顯示圖片。
+            this.pictureBoxBanana = new System.Windows.Forms.PictureBox();
+            this.pictureBoxBanana.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBoxBanana.Location = new System.Drawing.Point(20, 20);
+            this.pictureBoxBanana.Name = "pictureBoxBanana";
+            this.pictureBoxBanana.Size = new System.Drawing.Size(160, 120);
+            this.pictureBoxBanana.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxBanana.TabIndex = 0;
+            this.pictureBoxBanana.TabStop = false;
+            // 若要在點擊時加入卡路里，請在 Form1.cs 新增 pictureBoxFruit_Click 並在此註冊事件：
+            // this.pictureBoxBanana.Click += new System.EventHandler(this.pictureBoxFruit_Click);
+
+            this.pictureBoxApple = new System.Windows.Forms.PictureBox();
+            this.pictureBoxApple.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBoxApple.Location = new System.Drawing.Point(200, 20);
+            this.pictureBoxApple.Name = "pictureBoxApple";
+            this.pictureBoxApple.Size = new System.Drawing.Size(160, 120);
+            this.pictureBoxApple.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxApple.TabIndex = 1;
+            this.pictureBoxApple.TabStop = false;
+
+            this.pictureBoxOrange = new System.Windows.Forms.PictureBox();
+            this.pictureBoxOrange.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBoxOrange.Location = new System.Drawing.Point(20, 160);
+            this.pictureBoxOrange.Name = "pictureBoxOrange";
+            this.pictureBoxOrange.Size = new System.Drawing.Size(160, 120);
+            this.pictureBoxOrange.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxOrange.TabIndex = 2;
+            this.pictureBoxOrange.TabStop = false;
+
+            this.pictureBoxPear = new System.Windows.Forms.PictureBox();
+            this.pictureBoxPear.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBoxPear.Location = new System.Drawing.Point(200, 160);
+            this.pictureBoxPear.Name = "pictureBoxPear";
+            this.pictureBoxPear.Size = new System.Drawing.Size(160, 120);
+            this.pictureBoxPear.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxPear.TabIndex = 3;
+            this.pictureBoxPear.TabStop = false;
+
+            // ---------- 每張圖片下方的卡路里 Label（繁體中文、18pt） ----------
+            this.labelBananaCalories = new System.Windows.Forms.Label();
+            this.labelBananaCalories.Location = new System.Drawing.Point(20, 145);
+            this.labelBananaCalories.Name = "labelBananaCalories";
+            this.labelBananaCalories.Size = new System.Drawing.Size(160, 30);
+            this.labelBananaCalories.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelBananaCalories.Text = "115 卡路里"; // 已翻成繁體中文
+
+            this.labelAppleCalories = new System.Windows.Forms.Label();
+            this.labelAppleCalories.Location = new System.Drawing.Point(200, 145);
+            this.labelAppleCalories.Name = "labelAppleCalories";
+            this.labelAppleCalories.Size = new System.Drawing.Size(160, 30);
+            this.labelAppleCalories.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelAppleCalories.Text = "80 卡路里";
+
+            this.labelOrangeCalories = new System.Windows.Forms.Label();
+            this.labelOrangeCalories.Location = new System.Drawing.Point(20, 285);
+            this.labelOrangeCalories.Name = "labelOrangeCalories";
+            this.labelOrangeCalories.Size = new System.Drawing.Size(160, 30);
+            this.labelOrangeCalories.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelOrangeCalories.Text = "90 卡路里";
+
+            this.labelPearCalories = new System.Windows.Forms.Label();
+            this.labelPearCalories.Location = new System.Drawing.Point(200, 285);
+            this.labelPearCalories.Name = "labelPearCalories";
+            this.labelPearCalories.Size = new System.Drawing.Size(160, 30);
+            this.labelPearCalories.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelPearCalories.Text = "120 卡路里";
+
+            // ---------- 右側：總卡路里顯示與按鈕（繁體中文） ----------
+            this.labelTotalText = new System.Windows.Forms.Label();
+            this.labelTotalText.AutoSize = true;
+            this.labelTotalText.Location = new System.Drawing.Point(380, 40);
+            this.labelTotalText.Name = "labelTotalText";
+            this.labelTotalText.Size = new System.Drawing.Size(120, 30);
+            this.labelTotalText.Text = "總卡路里："; // 繁體中文提示文字
+
+            this.textBoxTotal = new System.Windows.Forms.TextBox();
+            this.textBoxTotal.Location = new System.Drawing.Point(380, 80);
+            this.textBoxTotal.Name = "textBoxTotal";
+            this.textBoxTotal.ReadOnly = true;
+            this.textBoxTotal.Size = new System.Drawing.Size(180, 39);
+            this.textBoxTotal.TabIndex = 9;
+            this.textBoxTotal.Text = "0";
+            this.textBoxTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+
+            this.buttonReset = new System.Windows.Forms.Button();
+            this.buttonReset.Location = new System.Drawing.Point(380, 140);
+            this.buttonReset.Name = "buttonReset";
+            this.buttonReset.Size = new System.Drawing.Size(180, 44);
+            this.buttonReset.TabIndex = 10;
+            this.buttonReset.Text = "重設"; // 繁體中文
+            this.buttonReset.UseVisualStyleBackColor = true;
+            // 若已在 Form1.cs 實作 buttonReset_Click，取消下方註解以註冊事件
+            // this.buttonReset.Click += new System.EventHandler(this.buttonReset_Click);
+
+            this.buttonExit = new System.Windows.Forms.Button();
+            this.buttonExit.Location = new System.Drawing.Point(380, 200);
+            this.buttonExit.Name = "buttonExit";
+            this.buttonExit.Size = new System.Drawing.Size(180, 44);
+            this.buttonExit.TabIndex = 11;
+            this.buttonExit.Text = "離開"; // 繁體中文
+            this.buttonExit.UseVisualStyleBackColor = true;
+            // 若已在 Form1.cs 實作 buttonExit_Click，取消下方註解以註冊事件
+            // this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
+
+            // ---------- 將控制項加入表單 ----------
+            this.Controls.Add(this.pictureBoxBanana);
+            this.Controls.Add(this.pictureBoxApple);
+            this.Controls.Add(this.pictureBoxOrange);
+            this.Controls.Add(this.pictureBoxPear);
+            this.ResumeLayout(false);
+
+            this.Controls.Add(this.labelBananaCalories);
+            this.Controls.Add(this.labelAppleCalories);
+            this.Controls.Add(this.labelOrangeCalories);
+            this.Controls.Add(this.labelPearCalories);
+        }
+
+            this.Controls.Add(this.labelTotalText);
+            this.Controls.Add(this.textBoxTotal);
+            this.Controls.Add(this.buttonReset);
+            this.Controls.Add(this.buttonExit);
+        #endregion
+    }
+}
+
+            // 恢復版面配置
+            this.ResumeLayout(false);
+            this.PerformLayout();
+        }

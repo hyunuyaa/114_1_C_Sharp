@@ -60,7 +60,7 @@
             "紐約",
             "舊金山"});
             this.cityListBox.Location = new System.Drawing.Point(207, 113);
-            this.cityListBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cityListBox.Margin = new System.Windows.Forms.Padding(4);
             this.cityListBox.Name = "cityListBox";
             this.cityListBox.Size = new System.Drawing.Size(264, 229);
             this.cityListBox.TabIndex = 1;
@@ -83,7 +83,7 @@
             this.timeZoneLabel.Location = new System.Drawing.Point(329, 370);
             this.timeZoneLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.timeZoneLabel.Name = "timeZoneLabel";
-            this.timeZoneLabel.Size = new System.Drawing.Size(217, 100);
+            this.timeZoneLabel.Size = new System.Drawing.Size(246, 100);
             this.timeZoneLabel.TabIndex = 3;
             this.timeZoneLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -91,7 +91,7 @@
             // 
             this.okButton.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.okButton.Location = new System.Drawing.Point(107, 494);
-            this.okButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.okButton.Margin = new System.Windows.Forms.Padding(4);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(167, 61);
             this.okButton.TabIndex = 4;
@@ -103,7 +103,7 @@
             // 
             this.exitButton.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitButton.Location = new System.Drawing.Point(379, 494);
-            this.exitButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(4);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(167, 61);
             this.exitButton.TabIndex = 5;
@@ -122,7 +122,7 @@
             this.Controls.Add(this.outputDescriptionLabel);
             this.Controls.Add(this.cityListBox);
             this.Controls.Add(this.promptLabel);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "時區";
             this.ResumeLayout(false);

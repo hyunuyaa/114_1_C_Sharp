@@ -39,3 +39,4 @@ C:\Users\m303\Desktop\114_1_C_Sharp\114_11_05\Tutorial 4-6\Time Zone\obj\x86\Deb
 C:\Users\m303\Desktop\114_1_C_Sharp\114_11_05\Tutorial 4-6\Time Zone\bin\Debug\Time Zone.exe.config
 C:\Users\m303\Desktop\114_1_C_Sharp\114_11_05\Tutorial 4-6\Time Zone\bin\Debug\Time Zone.exe
 C:\Users\m303\Desktop\114_1_C_Sharp\114_11_05\Tutorial 4-6\Time Zone\bin\Debug\Time Zone.pdb
+C:\Users\m303\Desktop\114_1_C_Sharp\114_11_05\Tutorial 4-6\Time Zone\obj\x86\Debug\Time Zone.exe.config
